@@ -1,12 +1,15 @@
-#ICT-PROJECT
+# Titan Athletics
 
-#Description
+# Description
 
-Gym Studio Site
-5 pages: Welcome | Trainers | Pricing | Apply Trainer | Body Fat
-Calculator
+#Gym Studio Site
 
-Group members:
+Pages: Home | About | Our Team | Login
+
+Other featurers include: Membership plans , Trainers , Timings etc.
+
+
+# Group members:
 1. Muhammad Talha bin Zaman 0674
 2. Bilal 0502
 3. Muhammad Usman 0523
