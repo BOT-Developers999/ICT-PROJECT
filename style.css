@@ -1,0 +1,88 @@
+*{
+margin: 0%; 
+padding: 0%; 
+box-sizing:border-box;
+}
+
+html,body{
+   height: 100%;
+   width: 100%; 
+}
+#main1{
+    height: 90%;
+    width: 100vw;
+    background-color: black;
+}
+#design{
+    display: flex;
+    width: 100vw;
+    height: 15vh;
+    background-color: rgba(39, 12, 160, 0.719);
+    align-items: center;
+}
+#fakehead{
+    width: 100vw;
+    height: 15vh;
+    background-color: rgb(10, 66, 114);
+}
+#nav{
+    display: flex;
+    width: 100vw;
+    height: 12vh;
+    position: fixed;
+    background-color: rgb(22, 20, 20);
+}
+#logo{
+    height: 15%;
+    width: 30%;
+    border-radius: 50%;
+    padding: 0%;
+    translate: 0px -40px;
+    margin-left: 20px;
+    margin-right: 180px;
+}
+
+#item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+.navitems{
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: x-large;
+}
+.navitems:hover{
+    background-color: rgb(104, 6, 6);
+}
+.image1{
+    width: 100vw; 
+    height: 90vh;
+    opacity: 0.3;
+    display: block;
+     margin: auto;
+}
+#text{
+    display: flex;
+    position: absolute;
+    color: aliceblue;
+    justify-content: center;
+    animation: moveText 4s 2 alternate;
+}
+@keyframes moveText {
+    0% { left: 0; }
+    100% { left: 30px; }
+}
+
+#page1{
+    height: 90%;
+    width: 100vw;
+    background-color: black;
+}
+
