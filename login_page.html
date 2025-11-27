@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In and Sign Up Form For Gym Website</title>
+    
+    <!-- kit link  -->
+
+    <script src="https://kit.fontawesome.com/4a7bc72e8b.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="login_page.css">
+
+</head>
+
+<body>
+
+<div class="container">
+    <div class="form-box">
+        <h1 id="title">Sign Up</h1>
+            <form>
+                <div class="input-group">
+                    <!-- Name -->
+                    <div class="input-field" id="NameField">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Name">
+                    </div>
+
+                <!-- email -->
+
+                <div class="input-field">
+                        <i class="fa-solid fa-at"></i>
+                        <input type="email" placeholder="Email">
+                    </div>
+
+                    <!-- Password -->
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-key"></i>
+                        <input type="password" placeholder="Password">
+                    </div>
+
+                    <p>Forgot Password? <a id="ForgotLink" href="#">Click Here!</a></p>
+
+
+                </div>
+
+                <div class="button-field">
+                    <button type="button" id="SignUpButton" >Sign Up</button>
+                    <button type="button"id="SignInButton" class="disable">Sign In</button>
+                </div>
+                
+                
+            </form>
+    </div>
+</div>
+
+<!-- recovery popup -->
+
+
+<div id="pop">
+    <div id="popBox">
+        <p class="recovery-message">Recovery email sent.</p>
+        <button id="closePop">OK</button>
+    </div>
+</div>
+<script>
+    // This is JS for the  Login Page
+// creating the variables
+
+let SignUpButton = document.getElementById("SignUpButton");
+let SignInButton = document.getElementById("SignInButton");
+let NameField = document.getElementById("NameField");
+let title = document.getElementById("title");
+
+// on click the Sign In Button we make a function
+
+SignInButton.onclick = function(){
+    NameField.style.maxHeight = "0" ;
+    title.innerHTML = "Sign In"
+    SignUpButton.classList.add("disable")
+    SignInButton.classList.remove("disable")
+}
+
+// on click for the Sign Up Button 
+
+SignUpButton.onclick = function(){
+    NameField.style.maxHeight = "60px" ;
+    title.innerHTML = "Sign Up"
+    SignUpButton.classList.remove("disable")
+    SignInButton.classList.add("disable")
+}
+
+//recovery email popup
+
+var forgot = document.getElementById("ForgotLink");
+var pop = document.getElementById("pop");
+var closeBtn = document.getElementById("closePop");
+
+forgot.onclick = function() {
+    pop.style.display = "flex";
+}
+
+closeBtn.onclick = function() {
+    pop.style.display = "none";
+}
+
+</script>
+</body>
+</html>
