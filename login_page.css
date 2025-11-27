@@ -10,7 +10,7 @@ body{
     background-color: whitesmoke; 
 }
 .container{
-    background-image: url(login_page_background.jpg);
+    background-image: url(Images/login_page_background.jpg);
     width: 15;
     height: 100%;
     min-height: 100vh;
