@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    /* background-color: #0000008f; */
+    background: linear-gradient(135deg, #1a1a1a, #333333);
+    /* color: #fff; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Common style for all the sections */
+section {
+    width: 100%;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+h1 {
+    text-shadow: 0 2px 4px rgba(255, 0, 242, 0.4);
+    font-weight: 200;
+    position: relative;
+    display: inline-block;
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.team-card {
+    text-align: center;
+}
+
+.team-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    margin-bottom: 15px;
+    transition: transform 0.3s;
+}
+
+.team-card img:hover {
+    transform: scale(1.5);
+}
+
+.team-card h3 {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.team-card p {
+    font-size: 16px;
+    color: #aaa;
+}
+
+.manager-section h1 {
+    color: #FFD700; 
+}
+
+.assistant-section h1 {
+    color: #00BFFF; 
+}
+
+.trainer-section h1 {
+    color: #ff880093;
+}
+
+
+
+
