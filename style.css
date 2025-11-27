@@ -10,25 +10,25 @@ html,body{
 }
 #main1{
     height: 90%;
-    width: 100vw;
+    width: 100%;
     background-color: black;
 }
 #design{
     display: flex;
-    width: 100vw;
-    height: 15vh;
+    width: 100%;
+    height: 17%;
     background-color: rgba(39, 12, 160, 0.719);
     align-items: center;
 }
 #fakehead{
-    width: 100vw;
-    height: 15vh;
+    width: 100%;
+    height: 17%;
     background-color: rgb(10, 66, 114);
 }
 #nav{
     display: flex;
-    width: 100vw;
-    height: 12vh;
+    width: 100%;
+    height: 13.5%;
     position: fixed;
     background-color: rgb(22, 20, 20);
 }
@@ -37,7 +37,7 @@ html,body{
     width: 30%;
     border-radius: 50%;
     padding: 0%;
-    translate: 0px -40px;
+    translate: 0px -35px;
     margin-left: 20px;
     margin-right: 180px;
 }
@@ -57,16 +57,21 @@ html,body{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
   font-size: x-large;
+  transition: transform 0.8s ease;
 }
 .navitems:hover{
     background-color: rgb(104, 6, 6);
+     transform: scale(1.1);
 }
 .image1{
-    width: 100vw; 
-    height: 90vh;
+    width: 100%; 
+    height: 90%;
     opacity: 0.3;
-    display: block;
      margin: auto;
+     translate: 70px 20px;
+    max-width: 1200px; 
+    height: auto;     
+    border: 2px solid black;
 }
 #text{
     display: flex;
@@ -77,12 +82,119 @@ html,body{
 }
 @keyframes moveText {
     0% { left: 0; }
-    100% { left: 30px; }
+    100% { left: 40px; }
 }
 
 #page1{
     height: 90%;
-    width: 100vw;
+    width: 100%;
     background-color: black;
+}
+#motivation{
+    translate: 0px 50px;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(0, 0, 0);
+    color: beige;
+    opacity: 100%;
+    animation: fadeIn 10s ease forwards;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.text1{
+    text-align: center;
+    translate: 0px 100px;
+    font-size: xx-large; 
+    font-family: cursive;
+    font-weight: 900;
+}
+
+#motivation .text2{
+    font-family: cursive;
+    font-weight: lighter; 
+    translate: 950px 100px;
+}
+#description{
+    width: 100%;
+    height: 70%;
+    background-color: rgb(0, 0, 0);
+    translate: 0px -230px;
+    text-align: center;
+}
+#buttons{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(0, 0, 0);
+
+}
+#b1{
+    width: 160px;
+    height: 50px;
+    translate: 450px 30px;
+}
+#b2{
+     width: 200px;
+    height: 50px;
+    translate: 700px -20px;
+}
+.b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(21, 91, 221);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.b a {
+    color: white;
+    text-decoration: none; 
+}
+#page2{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin-top: -216px;
+}
+.wrapper {
+    width: 100%;           
+    overflow-x: auto;      
+}
+.slider {
+    display: flex;           
+    gap: 10px;               
+}
+.slider img {
+    flex: 1 0 auto;          
+    width: auto;             
+    height: 350px;           
+    object-fit: cover;       
+}
+#footer{
+    display: flex;
+    width: 100%;
+    height: 53%;
+    background-color: rgb(0, 0, 0);
+    translate: 0px -200px;justify-content: center;
+    
+}
+.info{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 1.4;
+    padding-left: 170px;
+    padding-right: 170px;
+    color: aliceblue;
+}
+.info p{
+    font-weight: bolder;
+    font-size: 20px;
 }
 

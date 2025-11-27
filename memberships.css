@@ -1,0 +1,126 @@
+*{
+margin: 0%; 
+padding: 0%; 
+box-sizing:border-box;
+}
+
+html,body{
+   height: 100%;
+   width: 100%; 
+   background-color: black;
+}
+#main1{
+    height: 90%;
+    width: 100%;
+    background-color: black;
+}
+#design{
+    display: flex;
+    width: 100%;
+    height: 17%;
+    background-color: rgba(39, 12, 160, 0.719);
+    align-items: center;
+}
+#fakehead{
+    width: 100%;
+    height: 17%;
+    background-color: rgb(10, 66, 114);
+}
+#nav{
+    display: flex;
+    width: 100%;
+    height: 13.5%;
+    position: fixed;
+    background-color: rgb(22, 20, 20);
+     z-index: 9999;
+}
+#logo{
+    height: 15%;
+    width: 30%;
+    border-radius: 50%;
+    padding: 0%;
+    margin-top: -35px;
+    margin-left: 20px;
+    margin-right: 180px;
+}
+
+#item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+.navitems{
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: x-large;
+  transition: transform 0.8s ease;
+}
+.navitems:hover{
+    background-color: rgb(104, 6, 6);
+     transform: scale(1.1);
+}
+#header{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(77, 72, 72, 0.301);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40%;
+}
+#page1{
+    height: 110%;
+      min-height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    background-image: url("Images/Cover1.jpg");
+    background-size: cover;  
+    background-repeat: no-repeat;
+    opacity: 70%
+}
+#block1{
+    height: 280px;
+    width: 500px;
+    background-color: rgba(250, 235, 215, 0.507);
+    translate: 60px -670px;
+    text-align: center;
+}
+.button{
+    height: 40px;
+    width: 110px;
+    background-color: blue;
+    translate: -5px 30px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+#block2{
+    height: 280px;
+    width: 500px;
+    background-color: rgba(250, 235, 215, 0.507);
+    text-align: center;
+    translate: 790px -950px;
+}
+#block3{
+    height: 280px;
+    width: 500px;
+    background-color: rgba(250, 235, 215, 0.507);
+    text-align: center;
+    translate: 60px -880px;
+}
+#block4{
+    height: 300px;
+    width: 500px;
+    background-color: rgba(250, 235, 215, 0.507);
+    text-align: center;
+    translate: 790px -1165px;
+}
