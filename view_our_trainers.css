@@ -1,0 +1,68 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Dark background */
+body {
+  background: #0f0f0f;
+  font-family: Arial, sans-serif;
+  color: #f5f5f5;
+  padding: 30px;
+}
+
+/* Page heading */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+/* Trainer blocks container */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+/* Individual trainer block */
+.card {
+  background: #1a1a1a;
+  width: 280px;
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid #333;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.08);
+}
+
+/* Trainer image */
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+/* Trainer name */
+.card h2 {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* Trainer text */
+.card p {
+  color: #cccccc;
+  font-size: 14px;
+}
