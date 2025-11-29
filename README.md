@@ -1,15 +1,31 @@
-# Titan Athletics
+# Titan Athletics – Gym Studio Website
 
-# Description
+## Project Summary
 
-#Gym Studio Site
+Titan Athletics is a multi-page fitness website designed to present gym services, trainers, membership plans, and essential facility information in a clear, modern layout.
 
-Pages: Home | About | Our Team | Login
+## Features
+- Home, About, Our Team, Our Trainers, Membership Plans and Login page.
+- Membership plans with pricing
+- Trainer profiles and schedules
+- Timings and additional gym info
 
-Other featurers include: Membership plans , Trainers , Timings etc.
+## Live Demo
+[text](https://bot-developers999.github.io/ICT-PROJECT/)
 
+## Tech Stack
+- HTML
+- CSS
+- JavaScript
 
-# Group members:
-1. Muhammad Talha bin Zaman 0674
-2. Bilal 0502
-3. Muhammad Usman 0523
+## Commit Milestones
+1. init: Setup basic HTML/CSS/JS structure  
+2. feat: Added homepage and responsive layout  
+3. data: Added initial team/trainer content  
+4. feat: Added interactivity (login, navigation, etc.)  
+5. docs: Final README update + Pages link  
+
+## Team
+- Muhammad Talha bin Zaman (0674)  
+- Bilal (0502)  
+- Muhammad Usman (0523)
