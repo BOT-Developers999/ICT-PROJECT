@@ -11,7 +11,7 @@ Titan Athletics is a multi-page fitness website designed to present gym services
 - Timings and additional gym info
 
 ## Live Demo
-[text](https://bot-developers999.github.io/ICT-PROJECT/)
+[Link](https://bot-developers999.github.io/ICT-PROJECT/)
 
 ## Tech Stack
 - HTML
